@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link href="main.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body id="myPage">
+  <!--navigation section-->
+  <div class="backg">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#myPage">MY PORTFOLIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container-fluid text-center">
+      <div>
+        <span class="bi-person-fill logo"></span>
+      </div>
+      <h1>Gopi Krishna S</h1>
+      <span class="bi-dash-lg logo"></span>
+      <h3>Web developer</h3>
+    </div>
+  </header>
+  <!--Projects section-->
+  <div class="container-fluid" id="projects">
+    <h1 class="text-center">PROJECTS</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="cardback.jpg" class="card-img-top" alt="gym">
+          <div class="card-body">
+            <p class="card-text">Gym Management System</p><p></p>
+          </div>
+          <div>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#myModal">Get Info</button>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Gym Management System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>The purpose of this projects was to develop a management information System “GYM MANAGEMENT SYSTEM”. 
+                  This project shall enable the user to add members to a gym and manage the fee payment of the gym 
+                  user. It is a very simple interface developed using PHP. The user of the system shall be able 
+                  to add a new gym member. The tool shall add all the necessary details like name, trainer name, 
+                  e-mail id into the system. It shall allow the user to make fee payments. This tool shall hold all 
+                  the details of gym members. The tool shall add all the necessary details like name, trainer name, 
+                  e-mail id into the system. It shall allow the user to make fee payments. This tool shall hold all 
+                  the details of gym members. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="jobp.jpg" class="card-img-top" alt="job">
+          <div class="card-body">
+            <p class="card-text">Online Job Portal</p><p></p>
+          </div>
+          <div>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#myModal1">Get Info</button>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="myModal1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Online Job Portal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>This project is about the recruitment process which is done online. The recruitment process here
+                  is handled by the system. This project will allow the person to apply for a job in the company for
+                  the interested vacancy which would be available at the company. The person will be having the
+                  account after registration and will be then called the applied user. If he would be qualified, he
+                  would be interacting with the system for the updates. The project is created for fulfilling the
+                  requests of the company managers so that the recruitment module can be placed in the
+                  company’s website and the users who visit the website can view the vacancies in the company
+                  and will be able to apply directly from remote place even.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="shopp.jpg" class="card-img-top" alt="shopping">
+          <div class="card-body">
+            <p class="card-text">Online shopping Management System</p>
+          </div>
+          <div>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#myModal2">Get Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" tabindex="-1" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Online Shopping Management System</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>The Online Shopping is a web based application intended for online retailers. The main
+            objective of this application is to make it interactive and its ease of use. It would make
+            searching, viewing and selection of a product easier. It contains a sophisticated search
+            engine for user's to search for products specific to their needs. The search engine provides
+            an easy and convenient way to search for products where a user can Search for a product
+            interactively and the search engine would refine the products available based on the
+            user’s input. The user can then view the complete specification of each product. They can
+            also view the product reviews and also write their own reviews.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--About section-->
+  <div class="bact">
+  <div class="container-fluid" id="about">
+         <h1 class="text-center">ABOUT</h1>
+         <div class="row p">
+           <div class="col-sm-6 text-center"><p>Hi, My self Gopi Krishna.I'm from Tamilnadu.I'm 21 years old.I'm finished (BCA)Bachelor in Computer Application in Government Arts College, Salem.
+            And also I'm finished my higher Secondary Education in Governmant Boys Higher Secondary School,Salem.</p></div>
+           <div class="col-sm-6 text-center"><p>I have done Python Full Stack development course in ItVedant.Which is located in Mumbai.I'm Trained in HTML,CSS JavaScript,jQuery,Boostrap,Sql,Python,Django and Rest API.</p>
+           </div>
+         </div>
+      </div>
+        <!--Contact section-->
+  <div class="container-fluid" id="contact">
+    <h1 class="text-center">CONTACT ME</h1>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <span class="bi-map logog"></span>
+             <h5><b>ADDRESS</b></h5>
+             <span class="bi-dash-lg"></span>
+           <p>Salem,Tamilnadu</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <span class="bi-envelope-fill logog"></span>
+            <h5>EMAIL</h5>
+            <span class="bi-dash-lg"></span><br/>
+            <a href="https:gmail.com">gopikrishna@gmail.com</a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <span class="bi-phone-fill logog"></span>
+            <h5>PHONE</h5>
+            <span class="bi-dash-lg"></span>
+            <p>+91 6374203423</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+  <a href="https:twitter.com" class="bi-twitter text-center logog"></a>
+  <a href="https:twitter.com" class="bi-facebook text-center logog"></a>
+  <a href="https:twitter.com" class="bi-instagram text-center logog"></a>
+  </div>
+  </div>
+</body>
+</html>
